@@ -32,7 +32,7 @@
                             <a class="nav-link" href="#contact">CONTACT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#login.html">LOG IN</a>
+                            <a class="nav-link" href="#login.html" id="login">LOG IN</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#"></a>
@@ -217,6 +217,11 @@
     </footer>
 
     <script src="assets/bootstrap.bundle.min.js"></script>
-    <script src="script.js"></script>
+     <script src="jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function(e) {
+            $("#login").on("click", function(event) {
+                event.preventDefault();
+    </script>
 </body>
 </html>
